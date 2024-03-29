@@ -10,5 +10,6 @@
 - Algoritmo em Python para realizar a inversão de uma string.
     - Por opção, evitei utilizar comandos como print(string[::-1]) e função para determinar o tamanho da string.
 
-
+### Questões discussivas:
+- Incluídas no notebook Desafio_Target.ipynb
     
