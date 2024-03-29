@@ -1,4 +1,4 @@
-while True: #Bloco para prevenção de entradas incorretas por parte do usuário
+while True: #Bloco para prevenção de entradas incorretas por parte do usuário. Por opção, resolvi aceitar apenas números inteiros para verificar se faz parte da sequência
     try:
         number = int(input("Por favor, insira o número inteiro positivo que gostaria de verificar se faz parte da sequência de Fibonacci: "))
     except ValueError:
@@ -7,7 +7,7 @@ while True: #Bloco para prevenção de entradas incorretas por parte do usuário
     if number >=0:
         break
     else:
-        print("Entrada inválida 2")
+        print("Entrada inválida")
 
 
 previous_2 = 1 # Definição do segundo termo da série.

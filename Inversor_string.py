@@ -7,4 +7,3 @@ while tamanho != 0:
     obj_invertido = obj_invertido + obj_inversao[tamanho-1] # Aqui realizo a inversão percorrendo a string de trás para frente e concatenando a uma string vazia.
     tamanho = tamanho - 1
 print(obj_invertido)
-print(obj_inversao[::-1])
